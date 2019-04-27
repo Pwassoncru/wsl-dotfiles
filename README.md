@@ -66,13 +66,12 @@ Set up apt proxy.
     sudo apt install feh
     sudo apt install git
     sudo apt install ssh
-    sudo apt install tree
     git config --global http.proxy http://proxy_addr:proxy_port
 filesystem explorer using vim shortcuts:
 
     sudo apt install ranger
     sudo apt install x11-xserver-utils
-dmenu and ssh launcher:
+windows switcher, terminal manager, dmenu and ssh launcher:
 
     sudo apt install rofi
 
