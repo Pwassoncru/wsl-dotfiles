@@ -27,9 +27,9 @@ rofi.hlbg:                           #586E75
 rofi.bc:                             #002B36
 rofi.color-enabled:                  true
 
-rofi.color-normal:                   argb:0000000, #ffffff, argb:0000000, #268bd2, #ffffff
-rofi.color-urgent:                   argb:0000000, #f3843d, argb:0000000, #268bd2, #ffc39c
-rofi.color-active:                   argb:0000000, #268bd2, argb:0000000, #268bd2, #205171
+rofi.color-normal:                   argb:00000000, #ffffff, argb:00000000, #268bd2, #ffffff
+rofi.color-urgent:                   argb:00000000, #f3843d, argb:00000000, #268bd2, #ffc39c
+rofi.color-active:                   argb:00000000, #268bd2, argb:00000000, #268bd2, #205171
 rofi.color-window:                   argb:b2000000, #268bd2, #268bd2
 
 rofi.bw:                             4
