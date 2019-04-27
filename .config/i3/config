@@ -135,7 +135,7 @@ mode "resize" {
 
 bindsym Mod1+r mode "resize"
 
-exec --no-startup-id exec hsetroot -solid black
+exec --no-startup-id exec hsetroot -solid '#000000'
 exec --no-startup-id exec compton --paint-on-overlay
 exec_always --no-startup-id exec xrdb -load ~/.Xresources
 exec_always --no-startup-id exec ~/.scripts/polylaunch
