@@ -1,4 +1,4 @@
-# Install a clean i3 on WSL (ubuntu 18.04)
+# How to install a clean i3 configuration on WSL (ubuntu 18.04)
 
 The scripts used  are all inspired from [Wyene's github](https://github.com/Xyene/wsl-dotfiles.git). I suggest you read his README first. This repo is a tutorial on how to install every tool needed to build a clean  i3 environment on WSL.
 
