@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# meant to be run with `bash -c "/path/to/wlaunch"` when running from e.g. a Windows shortcut
-
-# explicitly needed when launching with bash -c from Windows
-source ~/.bashrc
-i3
