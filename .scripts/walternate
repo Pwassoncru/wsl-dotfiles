@@ -64,6 +64,9 @@ def update_wallpaper():
 #    os.system("gsettings set org.gnome.desktop.interface gtk-theme '%s'" % THEMES[segment])
 
 
-while True:
-    update_wallpaper()
-    time.sleep(POLL_TIME_INTERVAL)
+#while True:
+#    update_wallpaper()
+#    time.sleep(POLL_TIME_INTERVAL)
+
+
+os.system('feh --bg-scale ~/back.png')
