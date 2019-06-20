@@ -28,7 +28,7 @@ Create a file `ubuntu.vbs` containing the following three lines. You may want to
 
     Set shell = CreateObject("WScript.Shell" )
     shell.Run """C:\Program Files\VcXsrv\vcxsrv.exe"" :0 -screen 0 @1 -nodecoration -wgl"
-    shell.Run """C:\Users\Username\Downloads\Ubuntu\ubuntu1804.exe"" -c "". ~/.bashrc && export DISPLAY=:0 && i3"""
+    shell.Run """C:\Users\Username\Downloads\Ubuntu\ubuntu1804.exe"" -c "". ~/.bashrc && export DISPLAY=localhost:0.0 && i3"""
 
 To launch it more easily, you can also create a file `ubuntu.bat` containing:
 
