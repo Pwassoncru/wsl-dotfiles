@@ -1,6 +1,6 @@
 # How to install a clean i3 configuration on WSL (ubuntu 18.04)
 
-The scripts used  are all inspired from [Wyene's github](https://github.com/Xyene/wsl-dotfiles.git). I suggest you read his README first. This repo is a tutorial on how to install every tool needed to build a clean  i3 environment on WSL.
+The scripts used  are all inspired from [Wyene's github](https://github.com/Xyene/wsl-dotfiles.git). I suggest you read his README first. This repo is a tutorial on how to install every tool needed to build a clean  i3 environment on WSL. If you are not on a proxy, you can safely ignore every option that passes through the proxy, such as -x for curl.
 
 ## Windows binaries
 
@@ -32,7 +32,7 @@ Create a file `ubuntu.vbs` containing the following three lines. You may want to
 
 To launch it more easily, you can also create a file `ubuntu.bat` containing:
 
-    cscript C:\Users\Username\Downloads\Ubuntu\wsl.vbs
+    cscript C:\Users\Username\Downloads\Ubuntu\ubuntu.vbs
 
 P.S. You may want to look up on Internet how to pin a bat file to the taskbar
 
